@@ -15,7 +15,7 @@ const properties: Property[] = [
   },
   {
     id: "2",
-    address: "123 Main St",
+    address: "99 King St",
     rent: 1000,
     description: "A nice property",
     bedrooms: 3,
