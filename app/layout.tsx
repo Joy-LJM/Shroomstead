@@ -5,12 +5,11 @@ import {Fredoka, Figtree} from "next/font/google"
 const fredoka = Fredoka({
   variable: "--font-fredoka",
   subsets: ["latin"],
-  display: "swap",
+  weight: ["500", "600"],
 })
 const figtree = Figtree({
   variable: "--font-figtree",
   subsets: ["latin"],
-  display: "swap",
 })
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -21,9 +20,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <nav>
       <Link href="/">Home</Link>
-      <Link href="/properties">Properties</Link>
-      <Link href="/leases">Leases</Link>
-      <Link href="/maintenance-requests">Maintenance Requests</Link>
+      <Link href="/properties">Landlord Dashboard</Link>
+      <Link href="/leases">Tenant Dashboard</Link>
     </nav>
         {children}</body>
     </html>

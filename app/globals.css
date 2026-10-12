@@ -5,11 +5,16 @@
   --foreground: #3b2418;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-fredoka);
-  --font-mono: var(--font-figtree);
+@theme {
+  --color-cap: #C9402F;
+  --color-bark: #3B2418;
+  --color-moss: #4F7A4A;
+  --color-butter: #FFE08A;
+  --color-cream: #FFF0D4;
+  --color-spore: #FFF8EC;
+  --color-line: #E8D5B5;
+  --font-display: var(--font-fredoka);
+  --font-sans: var(--font-figtree);
 }
 
 @media (prefers-color-scheme: dark) {
